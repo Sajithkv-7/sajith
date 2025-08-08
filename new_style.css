@@ -1,0 +1,146 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-navbar {
+    background-color: rgb(22 34 46);
+}
+.nav-link,
+.navbar-brand{
+    color: white;
+}
+.nav-logo{
+    font-size: 30px;
+    color: #06bdb2;
+}
+.nav-logo:hover{
+    color: white;
+}
+
+.nav-item{
+    margin: 0 20px;
+    
+}
+a.nav-link:hover{
+    color: #06bdb2;
+}
+
+.bgcolor{
+   background-color:rgb(22 34 46); 
+}
+
+.myimage{
+    max-width: 230px;
+    height: auto;
+}
+.content{
+    color:white;
+}
+
+.details{
+    font-size: 30px;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.about-text{
+    color:#06bdb2;
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+
+.social-icons a {
+    color: white;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #06bdb2; /* change this color as needed */
+}
+
+.custom-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.custom-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.custom-overlay {
+  background-color: rgba(22, 34, 46, 0.6);  /* Your transparent dark blue */
+  color: white;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  
+}
+
+
+.custom-overlay h5 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #06bdb2;;
+}
+
+.custom-overlay p {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.custom-overlay small {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.custom-card:hover img {
+  transform: scale(1.1);
+}
+
+a{
+    text-decoration:none;
+}
+
+.contact-icons a {
+    color:white;
+    transition: 0.3s;
+}
+.contact-icons a:hover {
+    color: rgb(22 34 46); /* change this color as needed */
+}
+
+section{
+    scroll-margin-top:40px;
+}
+
+.navbar-toggler{
+    color: #021110;
+    background-color:#06bdb2
+}
+
+.experience-card {
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 245, 212, 0.3);
+}
